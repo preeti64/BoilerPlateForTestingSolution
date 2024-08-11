@@ -9,7 +9,7 @@ public class ProblemSolvingInterviewTest {
 
     @Test
     public void getDivisorTest(){
-        Assert.assertEquals(ProblemSolvingInterview.executeDivisor(2,20), List.of(16));
+        Assert.assertEquals(ProblemSolvingInterview.executeDivisor(1,100), List.of(16, 81));
     }
 }
 
