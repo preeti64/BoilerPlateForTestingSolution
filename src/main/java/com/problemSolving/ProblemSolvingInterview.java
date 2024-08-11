@@ -29,8 +29,8 @@ result - array of integers*/
 
 public class ProblemSolvingInterview {
     public static void main(String[] args) {
-        int n = 1;
-        int m = 100;
+        int n = 2;
+        int m = 50;
         List<Integer> result = executeDivisor(n, m);
         System.out.println(result);
     }
