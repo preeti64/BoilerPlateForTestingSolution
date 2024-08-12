@@ -5,8 +5,8 @@ import org.testng.annotations.Test;
 public class ProblemSolvingInterviewTest {
 
     @Test
-    public void sortAlphanumericString(){
-        Assert.assertEquals(ProblemSolvingInterview.executeDivisor(2,20), new int[]{16});
+    public void testMethod(){
+        Assert.assertEquals(ProblemSolvingInterview.executeMethod(), "Hello World");
     }
 }
 
